@@ -11,7 +11,10 @@
 [![Windows 11](https://img.shields.io/badge/Windows%2011-%230079d5.svg?style=for-the-badge&logo=Windows%2011&logoColor=white)](https://img.shields.io/badge/Windows%2011-%230079d5.svg?style=for-the-badge&logo=Windows%2011&logoColor=white)
 
 ### Easy to use encrypted cross platform file stealer with an interactive GUI. Yeah that summarizes it pretty well.
-btw. feel free to contribute, I know my JS, HTML and CSS aren't the cleanest and greatest :D
+Feel free to contribute. I know my JS, HTML and CSS aren't the cleanest :D
+
+<img src="https://github.com/user-attachments/assets/12251e58-3479-4be7-b8ff-4ea79b87e06f" width=500></img>
+<img src="https://github.com/user-attachments/assets/de064cef-4f9f-4391-80ff-7286c92a95e5" width=500></img>
 
 ## <b>Server Installation</b>
 ### Precompiled:
