@@ -1,0 +1,107 @@
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+$maincolor: magenta;
+$filemanager_outline: cyan;
+$txt: cyan;
+$bg: rgb(15, 15, 35);
+$preview_box: rgb(255, 150, 255);
+$filemanager_bg: rgba(0, 204, 255, 0.1);
+$sizecolor: yellow;
+$downloadbutton_color: grey;
+$downloadprogress_color: white;
+
+html {
+    padding-top: 35px;
+    padding-bottom: 30px;
+}
+
+html, div {
+    background: $bg;
+    text-align: center;
+    color: $txt;
+    overflow-x: hidden;
+}
+
+.box {
+    margin-inline: 5px;
+    flex-grow: 1;
+    border: 2px solid $filemanager_outline;
+    border-radius: 10px;
+    min-width: 100px;
+    min-height: 200px;
+
+    background-color: $filemanager_bg;
+    text-align: left;
+    padding: 5px;
+    li {
+        list-style-type:none;
+    }
+    button {
+        background: none;
+        border: none;
+        color: $txt;
+        &:hover {
+            border: 1px solid rgba(255, 255, 255, 0.450);
+            border-radius: 5px;
+        }
+    }  
+    .download {
+        font-size: 13px;
+        text-align: right;
+        color: $downloadbutton_color;
+    } 
+}
+
+.previewbutton {
+    color: $maincolor;
+}
+
+.buttons {
+    display: inline-grid;
+    grid-template-columns: 25px 25px;
+    width: 100%;
+    justify-content: right;
+}
+
+.maincolor {
+    color: $maincolor;
+}
+
+.flex {
+    display: flex;
+}
+
+.previewBox {
+    white-space: pre-line;
+    text-align: left;
+    min-width: 100px;
+    min-height: 100px;
+    border: 1px solid $preview_box;
+    border-radius: 5px;
+    padding: 5px;
+    margin-inline: 5px;
+    margin-bottom: 5px;
+}
+
+#downloading {
+    color: $downloadprogress_color;
+    text-align: center;
+}
+
+.invisible {
+    opacity: 0 !important;
+}
+
+.size {
+    color: $sizecolor;
+    font-size: 12px;
+}
+
+#killagent {
+    color: white;
+    background-color: rgb(210, 32, 115);
+    border: none;
+    &:hover {
+        background-color: rgb(240, 17, 121);
+    }
+}
