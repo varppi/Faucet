@@ -11,10 +11,10 @@
 [![Windows 11](https://img.shields.io/badge/Windows%2011-%230079d5.svg?style=for-the-badge&logo=Windows%2011&logoColor=white)](https://img.shields.io/badge/Windows%2011-%230079d5.svg?style=for-the-badge&logo=Windows%2011&logoColor=white)
 
 ### Easy to use encrypted cross platform file stealer with an interactive GUI. Yeah that summarizes it pretty well.
-Feel free to contribute. I know my JS, HTML and CSS aren't the cleanest :D
+Feel free to contribute.
 
-<img src="https://github.com/user-attachments/assets/12251e58-3479-4be7-b8ff-4ea79b87e06f" width=500></img>
-<img src="https://github.com/user-attachments/assets/de064cef-4f9f-4391-80ff-7286c92a95e5" width=500></img>
+<img src="https://github.com/user-attachments/assets/12251e58-3479-4be7-b8ff-4ea79b87e06f" width=400></img>
+<img src="https://github.com/user-attachments/assets/de064cef-4f9f-4391-80ff-7286c92a95e5" width=400></img>
 
 ## <b>Server Installation</b>
 ### Precompiled:
@@ -42,9 +42,9 @@ cp build/bin/* ./
 5. When the target runs the agent it should now connect to the server and display the current directory's contents.
 
 ## <b>Global.conf settings</b>
-* password: Password used to encrypt the traffif.
+* password: Password used to encrypt the traffic.
 * listen: Server listener. Format: `<host>:<port>`.
 * lootdir: Where Faucet will store downloaded files.
-* autodownload: A file/directory to download the second the agent connects. NOTE: %user% will be translated to the home directory.
+* autodownload: A file/directory to be download the second the agent connects. NOTE: %user% will be translated to the home directory.
 
-### I don't really want skids using this so you have to have enough knowledge to figure out the rest yourself kekw
+### I don't really want skids using this so you have to have enough knowledge to figure out the rest yourself kek
