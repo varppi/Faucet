@@ -22,7 +22,7 @@ Feel free to contribute.
 ### Compile yourself:
 1. 
 ```
-git clone https://github.com/SpoofIMEI/Faucet
+git clone https://github.com/Varppi/Faucet
 cd Faucet/server
 go install github.com/wailsapp/wails/v2/cmd/wails@latest
 ~/go/bin/wails doctor
